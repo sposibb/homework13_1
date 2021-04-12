@@ -133,3 +133,64 @@ a {
   line-height: 27px;
   color: #262626;
 }
+.section3 {
+  background-color: #70bfff;
+  position: relative;
+}
+.section3_first_list {
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.5));
+}
+.section3_list_item {
+  height: 100px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 277px;
+}
+.section3_list {
+  margin-top: 165px;
+}
+.section3_svg {
+  display: flex;
+  flex-direction: column;
+}
+.section3_flex {
+  display: flex;
+}
+.section3_list_svg {
+  list-style: none;
+  margin-top: 165px;
+  margin-bottom: 165px;
+}
+.section3_list_item_svg {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 1px;
+}
+.section3_tomatoes {
+  position: absolute;
+  top: 89px;
+  left: 858px;
+}
+.section3_h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 299px;
+  left: 776px;
+}
