@@ -467,7 +467,7 @@ footer {
   height: 445px;
 }
 #text,
-#email,
+#email1,
 #number,
 #textarea {
   margin-bottom: 15px;
@@ -487,12 +487,12 @@ footer {
   font-size: 15px;
   line-height: 18px;
 }
-#email,
+#email1,
 #number,
 #textarea {
   background: rgba(0, 196, 196, 0.5);
 }
-#email::placeholder {
+#email1::placeholder {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
@@ -542,7 +542,12 @@ input[type="number"]::-webkit-inner-spin-button {
   flex-direction: column;
 }
 .footer_bottom_p {
-  color: #000;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
   margin-top: -7px;
   margin-bottom: 10px;
 }
