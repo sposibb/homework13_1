@@ -271,3 +271,66 @@ a {
   text-transform: uppercase;
   color: #ffffff;
 }
+.section5 {
+  background: url(../img/BG\ section5.png) center center no-repeat;
+  background-size: cover;
+}
+.section5_h3 {
+  margin-top: 144px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  color: #262626;
+  margin-bottom: 20px;
+  margin-left: 180px;
+}
+.section5_h3_p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #262626;
+  margin-bottom: 30px;
+  margin-left: 180px;
+}
+.section5_form {
+  margin-left: 180px;
+  margin-right: 30px;
+}
+.section5_form_email {
+  width: 570px;
+  height: 55px;
+  border: 1px solid #262626;
+}
+.section5_form_email::placeholder {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 15px;
+  margin-right: 30px;
+}
+.section5_box_line {
+  display: flex;
+}
+.section5_button {
+  background: #96b92c;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 144px;
+  margin-left: 30px;
+}
+.section5_text_button {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
